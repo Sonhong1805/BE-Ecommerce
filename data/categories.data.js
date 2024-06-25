@@ -1,0 +1,3125 @@
+exports.categories = [
+  {
+    id: "1",
+    name: "Bách hóa online",
+    slug: "bach-hoa-online",
+    children: [
+      {
+        id: "1.1",
+        name: "Ăn vặt & Bánh kẹo",
+        slug: "an-vat-banh-keo",
+      },
+      {
+        id: "1.2",
+        name: "Đặc sản Việt",
+        slug: "dac-san-viet",
+      },
+      {
+        id: "1.3",
+        name: "Đậu & Hạt",
+        slug: "dau-hat",
+      },
+      {
+        id: "1.4",
+        name: "Đồ hộp & Đóng gói",
+        slug: "do-hop-dong-goi",
+      },
+      {
+        id: "1.5",
+        name: "Đồ thú cưng",
+        slug: "do-thu-cung",
+      },
+      {
+        id: "1.6",
+        name: "Đồ uống",
+        slug: "do-uong",
+      },
+      {
+        id: "1.7",
+        name: "Nấu ăn & Làm bánh",
+        slug: "nau-an-lam-banh",
+      },
+      {
+        id: "1.8",
+        name: "Quà biếu",
+        slug: "qua-bieu",
+      },
+    ],
+  },
+  {
+    id: "2",
+    name: "Đồ chơi",
+    slug: "do-choi",
+    children: [
+      {
+        id: "2.1",
+        name: "Búp bê & Đồ chơi nhồi bông",
+        slug: "bup-be-do-choi-nhoi-bong",
+      },
+      {
+        id: "2.2",
+        name: "Đồ chơi cho trẻ sơ sinh & trẻ nhỏ",
+        slug: "do-choi-cho-tre-so-sinh-tre-nho",
+      },
+      {
+        id: "2.3",
+        name: "Đồ chơi giải trí",
+        slug: "do-choi-giai-tri",
+      },
+      {
+        id: "2.4",
+        name: "Đồ chơi giáo dục",
+        slug: "do-choi-giao-duc",
+      },
+      {
+        id: "2.5",
+        name: "Đồ chơi nhân vật & nhập vai",
+        slug: "do-choi-nhan-vat-nhap-vai",
+      },
+      {
+        id: "2.6",
+        name: "Đồ chơi vận động & ngoài trời",
+        slug: "do-choi-van-dong-ngoai-troi",
+      },
+    ],
+  },
+  {
+    id: "3",
+    name: "Đồng hồ",
+    slug: "dong-ho",
+    children: [
+      {
+        id: "3.1",
+        name: "Đồng hồ nam",
+        slug: "dong-ho-nam",
+      },
+      {
+        id: "3.2",
+        name: "Đồng hồ nữ",
+        slug: "dong-ho-nu",
+      },
+      {
+        id: "3.3",
+        name: "Đồng hồ trẻ em",
+        slug: "dong-ho-tre-em",
+      },
+      {
+        id: "3.4",
+        name: "Đồng hồ treo tường",
+        slug: "dong-ho-treo-tuong",
+      },
+    ],
+  },
+  {
+    id: "4",
+    name: "Giày dép nam",
+    slug: "giay-dep-nam",
+    children: [
+      {
+        id: "4.1",
+        name: "Dép",
+        slug: "dep",
+      },
+      {
+        id: "4.2",
+        name: "Giày dép unisex",
+        slug: "giay-dep-unisex",
+      },
+      {
+        id: "4.3",
+        name: "Giày lười",
+        slug: "giay-luoi",
+      },
+      {
+        id: "4.4",
+        name: "Giày tây",
+        slug: "giay-tay",
+      },
+      {
+        id: "4.5",
+        name: "Giày thể thao / Sneaker",
+        slug: "giay-the-thao-sneaker",
+      },
+      {
+        id: "4.6",
+        name: "Phụ kiện giày dép nam",
+        slug: "phu-kien-giay-dep-nam",
+      },
+      {
+        id: "4.7",
+        name: "Sandal nam",
+        slug: "sandal-nam",
+      },
+    ],
+  },
+  {
+    id: "5",
+    name: "Giày dép nữ",
+    slug: "giay-dep-nu",
+    children: [
+      {
+        id: "5.1",
+        name: "Bốt",
+        slug: "bot",
+      },
+      {
+        id: "5.2",
+        name: "Giày cao gót",
+        slug: "giay-cao-got",
+      },
+      {
+        id: "5.3",
+        name: "Giày đế xuồng",
+        slug: "giay-de-xuong",
+      },
+      {
+        id: "5.4",
+        name: "Giày đế bằng",
+        slug: "giay-de-xuong",
+      },
+      {
+        id: "5.5",
+        name: "Giày sneaker & Giày thể thao",
+        slug: "giay-sneaker-giay-the-thao",
+      },
+      {
+        id: "5.6",
+        name: "Guốc / Dép nữ",
+        slug: "guoc-dep-nu",
+      },
+      {
+        id: "5.7",
+        name: "Phụ kiện giày dép nữ",
+        slug: "phu-kien-giay-dep-nu",
+      },
+      {
+        id: "5.8",
+        name: "Sandal nữ",
+        slug: "sandal-nu",
+      },
+    ],
+  },
+  {
+    id: "6",
+    name: "Máy ảnh - Máy quay phim",
+    slug: "may-anh-may-quay-phim",
+    children: [
+      {
+        id: "6.1",
+        name: "Camera giám sát & Webcam",
+        slug: "camera-giam-sat-webcam",
+      },
+      {
+        id: "6.2",
+        name: "Máy ảnh DSLR",
+        slug: "may-anh-dslr",
+      },
+      {
+        id: "6.3",
+        name: "Máy ảnh du lịch & chụp lấy liền",
+        slug: "may-anh-du-lich-chup-lay-lien",
+      },
+      {
+        id: "6.4",
+        name: "Máy ảnh không gương lật",
+        slug: "may-anh-khong-guong-lat",
+      },
+      {
+        id: "6.5",
+        name: "Máy quay phim",
+        slug: "may-quay-phim",
+      },
+      {
+        id: "6.6",
+        name: "Phụ kiện máy ảnh",
+        slug: "phu-kien-may-anh",
+      },
+      {
+        id: "6.7",
+        name: "Thẻ nhớ",
+        slug: "the-nho",
+      },
+    ],
+  },
+  {
+    id: "7",
+    name: "Máy tính & Laptop",
+    slug: "may-tinh-laptop",
+    children: [
+      {
+        id: "7.1",
+        name: "Chuột, Bàn phím & Phụ kiện khác",
+        slug: "chuot-ban-phim-phu-kien-khac",
+      },
+      {
+        id: "7.2",
+        name: "Laptop",
+        slug: "laptop",
+      },
+      {
+        id: "7.3",
+        name: "Linh kiện máy tính",
+        slug: "linh-kien-may-tinh",
+      },
+      {
+        id: "7.4",
+        name: "Máy in, Máy scan & Máy chiếu",
+        slug: "may-in-may-scan-may-chieu",
+      },
+      {
+        id: "7.5",
+        name: "Máy tính bàn",
+        slug: "may-tinh-ban",
+      },
+      {
+        id: "7.6",
+        name: "Phần mềm",
+        slug: "phan-mem",
+      },
+      {
+        id: "7.7",
+        name: "Thiết bị mạng",
+        slug: "thiet-bi-mang",
+      },
+      {
+        id: "7.8",
+        name: "USB & Ổ cứng",
+        slug: "usb-o-cung",
+      },
+    ],
+  },
+  {
+    id: "8",
+    name: "Thiết bị điện tử",
+    slug: "thiet-bi-dien-tu",
+    children: [
+      {
+        id: "8.1",
+        name: "Android Tivi Box",
+        slug: "android-tivi-box",
+      },
+      {
+        id: "8.2",
+        name: "Phụ kiện & Thiết bị game",
+        slug: "phu-kien-thiet-bi-game",
+      },
+      {
+        id: "8.3",
+        name: "Phụ kiện Tivi",
+        slug: "phu-kien-tivi",
+      },
+      {
+        id: "8.4",
+        name: "Tai nghe",
+        slug: "tai-nghe",
+      },
+      {
+        id: "8.5",
+        name: "Thiết bị âm thanh",
+        slug: "thiet-bi-am-thanh",
+      },
+      {
+        id: "8.6",
+        name: "Thiết bị đeo thông minh",
+        slug: "thiet-bi-deo-thong-minh",
+      },
+      {
+        id: "8.7",
+        name: "Tivi",
+        slug: "tivi",
+      },
+    ],
+  },
+  {
+    id: "9",
+    name: "Ô tô - Xe máy - Xe đạp",
+    slug: "o-to-xe-may-xe-dap",
+    children: [
+      {
+        id: "9.1",
+        name: "Chăm sóc, sửa chữa xe",
+        slug: "cham-soc-sua-chua-xe",
+      },
+      {
+        id: "9.2",
+        name: "Mô tô, Xe máy, Xe đạp",
+        slug: "mo-to-xe-may-xe-dap",
+      },
+      {
+        id: "9.3",
+        name: "Phụ kiện, phụ tùng ô tô",
+        slug: "phu-kien-phu-tung-o-to",
+      },
+      {
+        id: "9.4",
+        name: "Phụ kiện, phụ tùng xe máy",
+        slug: "phu-kien-phu-tung-xe-may",
+      },
+      {
+        id: "9.5",
+        name: "Thiết bị tiện ích (xe)",
+        slug: "thiet-bi-tien-ich",
+      },
+    ],
+  },
+  {
+    id: "10",
+    name: "Phụ kiện thời trang",
+    slug: "phu-kien-thoi-trang",
+    children: [
+      {
+        id: "10.1",
+        name: "Dây lưng",
+        slug: "day-lung",
+      },
+      {
+        id: "10.2",
+        name: "Hình xăm",
+        slug: "hinh-xam",
+      },
+      {
+        id: "10.3",
+        name: "Khăn, Tất & Găng tay",
+        slug: "khan-tat-gang-tay",
+      },
+      {
+        id: "10.4",
+        name: "Khẩu trang",
+        slug: "khau-trang",
+      },
+      {
+        id: "10.5",
+        name: "Kính mắt",
+        slug: "kinh-mat",
+      },
+      {
+        id: "10.6",
+        name: "Nón & Dù",
+        slug: "non-du",
+      },
+      {
+        id: "10.7",
+        name: "Phụ kiện cưới",
+        slug: "phu-kien-cuoi",
+      },
+      {
+        id: "10.8",
+        name: "Phụ kiện tóc",
+        slug: "phu-kien-toc",
+      },
+      {
+        id: "10.9",
+        name: "Trang sức",
+        slug: "trang-suc",
+      },
+    ],
+  },
+  {
+    id: "11",
+    name: "Sức khỏe & Sắc đẹp",
+    slug: "suc-khoe-sac-dep",
+    children: [
+      {
+        id: "11.1",
+        name: "Chăm sóc da",
+        slug: "cham-soc-da",
+      },
+      {
+        id: "11.2",
+        name: "Chăm sóc móng",
+        slug: "cham-soc-mong",
+      },
+      {
+        id: "11.3",
+        name: "Chăm sóc răng miệng",
+        slug: "cham-soc-rang-mieng",
+      },
+      {
+        id: "11.4",
+        name: "Chăm sóc tóc",
+        slug: "cham-soc-toc",
+      },
+      {
+        id: "11.5",
+        name: "Dụng cụ làm đẹp",
+        slug: "dung-cu-lam-dep",
+      },
+      {
+        id: "11.6",
+        name: "Máy massage & Thiết bị y tế",
+        slug: "may-massage-thiet-bi-y-te",
+      },
+      {
+        id: "11.7",
+        name: "Mỹ phẩm nam",
+        slug: "my-pham-nam",
+      },
+      {
+        id: "11.8",
+        name: "Nước hoa",
+        slug: "nuoc-hoa",
+      },
+      {
+        id: "11.9",
+        name: "Son & Chăm sóc môi",
+        slug: "son-cham-soc-moi",
+      },
+      {
+        id: "11.10",
+        name: "Tắm & Chăm sóc cơ thể",
+        slug: "tam-cham-soc-co-the",
+      },
+      {
+        id: "11.11",
+        name: "Trang điểm da",
+        slug: "trang-diem-da",
+      },
+      {
+        id: "11.12",
+        name: "Trang điểm mắt",
+        slug: "trang-diem-mat",
+      },
+      {
+        id: "11.13",
+        name: "Vệ sinh phụ nữ & Hỗ trợ tình dục",
+        slug: "ve-sinh-phu-nu-ho-tro-tinh-duc",
+      },
+      {
+        id: "11.14",
+        name: "Vitamin & Thực phẩm chức năng",
+        slug: "vitamin-thuc-pham-chuc-nang",
+      },
+    ],
+  },
+  {
+    id: "12",
+    name: "Điện thoại và phụ kiện",
+    slug: "dien-thoai-phu-kien",
+    children: [
+      {
+        id: "12.1",
+        name: "Điện thoại",
+        slug: "dien-thoai",
+      },
+      {
+        id: "12.2",
+        name: "Gậy chụp hình",
+        slug: "gay-chup-hinh",
+      },
+      {
+        id: "12.3",
+        name: "Giá đỡ & Kẹp",
+        slug: "gia-do-kep",
+      },
+      {
+        id: "12.4",
+        name: "Máy tính bảng",
+        slug: "may-tinh-bang",
+      },
+      {
+        id: "12.5",
+        name: "Miếng dán màn hình",
+        slug: "mieng-dan-man-hinh",
+      },
+      {
+        id: "12.6",
+        name: "Pin sạc dự phòng",
+        slug: "pin-sac-du-phong",
+      },
+      {
+        id: "12.7",
+        name: "Pin, Cáp & Bộ sạc",
+        slug: "pin-cap-bo-sac",
+      },
+      {
+        id: "12.8",
+        name: "Sim",
+        slug: "sim",
+      },
+      {
+        id: "12.9",
+        name: "Vỏ, Bao & Ốp lưng",
+        slug: "vo-bao-op-lung",
+      },
+    ],
+  },
+  {
+    id: "13",
+    name: "Thiết bị điện gia dụng",
+    slug: "thiet-bi-dien-gia-dung",
+    children: [
+      {
+        id: "13.1",
+        name: "Đồ gia dụng lớn",
+        slug: "do-gia-dung-lon",
+      },
+      {
+        id: "13.2",
+        name: "Đồ gia dụng nhà bếp",
+        slug: "do-gia-dung-nha-bep",
+      },
+      {
+        id: "13.3",
+        name: "Thiết bị làm sạch",
+        slug: "thiet-bi-lam-sach",
+      },
+      {
+        id: "13.4",
+        name: "Quạt & Máy nóng lạnh",
+        slug: "quat-may-nong-lanh",
+      },
+      {
+        id: "13.5",
+        name: "Thiết bị chăm sóc quần áo",
+        slug: "thiet-bi-cham-soc-quan-ao",
+      },
+    ],
+  },
+  {
+    id: "14",
+    name: "Nhà cửa & Đời sống",
+    slug: "nha-cua-doi-song",
+    children: [
+      {
+        id: "14.1",
+        name: "Chăn, Ga, Gối & Nệm",
+        slug: "chan-ga-goi-nem",
+      },
+      {
+        id: "14.2",
+        name: "Đèn",
+        slug: "den",
+      },
+      {
+        id: "14.3",
+        name: "Đồ dùng nhà bếp & Phòng ăn",
+        slug: "do-dung-nha-bep-phong-an",
+      },
+      {
+        id: "14.4",
+        name: "Đồ dùng phòng tắm",
+        slug: "do-dung-phong-tam",
+      },
+      {
+        id: "14.5",
+        name: "Đồ nội thất",
+        slug: "do-noi-that",
+      },
+      {
+        id: "14.6",
+        name: "Dụng cụ & Thiết bị tiện ích",
+        slug: "dung-cu-thiet-bi-tien-ich",
+      },
+      {
+        id: "14.7",
+        name: "Dụng cụ cầm tay",
+        slug: "dung-cu-cam-tay",
+      },
+      {
+        id: "14.8",
+        name: "Ngoài trời & Sân vườn",
+        slug: "ngoai-troi-san-vuon",
+      },
+    ],
+  },
+  {
+    id: "15",
+    name: "Mẹ & Bé",
+    slug: "me-be",
+    children: [
+      {
+        id: "15.1",
+        name: "Đồ dùng cho bé",
+        slug: "do-dung-cho-be",
+      },
+      {
+        id: "15.2",
+        name: "Ghế, Nui, Cũi, Xe đẩy & Địu",
+        slug: "ghe-nui-cui-xe-day-diu",
+      },
+      {
+        id: "15.3",
+        name: "Quần áo & Phụ kiện sơ sinh",
+        slug: "quan-ao-phu-kien-so-sinh",
+      },
+      {
+        id: "15.4",
+        name: "Sữa & Đồ ăn",
+        slug: "sua-do-an",
+      },
+      {
+        id: "15.5",
+        name: "Tã & Bỉm",
+        slug: "ta-bim",
+      },
+    ],
+  },
+  {
+    id: "16",
+    name: "Thời trang nam",
+    slug: "thoi-trang-nam",
+    children: [
+      {
+        id: "16.1",
+        name: "Áo khoác và Áo vest",
+        slug: "ao-khoac-ao-vest",
+      },
+      {
+        id: "16.2",
+        name: "Áo nỉ / Áo len",
+        slug: "ao-ni-ao-len",
+      },
+      {
+        id: "16.3",
+        name: "Áo sơ mi",
+        slug: "ao-so-mi",
+      },
+      {
+        id: "16.4",
+        name: "Áo thun",
+        slug: "ao-thun",
+      },
+      {
+        id: "16.5",
+        name: "Đồ bộ / Đồ mặc trong nhà",
+        slug: "do-bo-do-mac-trong-nha",
+      },
+      {
+        id: "16.6",
+        name: "Quần",
+        slug: "quan",
+      },
+      {
+        id: "16.7",
+        name: "Phụ kiện nam",
+        slug: "phu-kien-nam",
+      },
+    ],
+  },
+  {
+    id: "17",
+    name: "Thời trang nữ",
+    slug: "thoi-trang-nu",
+    children: [
+      {
+        id: "17.1",
+        name: "Áo",
+        slug: "ao",
+      },
+      {
+        id: "17.2",
+        name: "Váy",
+        slug: "vay",
+      },
+      {
+        id: "17.3",
+        name: "Đầm",
+        slug: "dam",
+      },
+      {
+        id: "17.4",
+        name: "Đồ lót, Đồ ngủ & Đồ mặc trong nhà",
+        slug: "do-lot-do-ngu-do-mac-trong-nha",
+      },
+      {
+        id: "17.5",
+        name: "Quần nữ",
+        slug: "quan-nu",
+      },
+      {
+        id: "17.6",
+        name: "Đồ bơi",
+        slug: "do-boi",
+      },
+    ],
+  },
+  {
+    id: "18",
+    name: "Túi ví",
+    slug: "tui-vi",
+    children: [
+      {
+        id: "18.1",
+        name: "Balo thời trang",
+        slug: "balo-thoi-trang",
+      },
+      {
+        id: "18.2",
+        name: "Cặp văn phòng",
+        slug: "cap-van-phong",
+      },
+      {
+        id: "18.3",
+        name: "Túi đeo chéo",
+        slug: "tui-deo-cheo",
+      },
+      {
+        id: "18.4",
+        name: "Túi đựng tiện ích",
+        slug: "tui-dung-tien-ich",
+      },
+      {
+        id: "18.5",
+        name: "Ví nam",
+        slug: "vi-nam",
+      },
+      {
+        id: "18.6",
+        name: "Ví nữ",
+        slug: "vi-nu",
+      },
+    ],
+  },
+  {
+    id: "19",
+    name: "Voucher & Dịch vụ",
+    slug: "voucher-dich-vu",
+    children: [
+      {
+        id: "19.1",
+        name: "Du lịch - Khách sạn",
+        slug: "du-lich-khach-san",
+      },
+      {
+        id: "19.2",
+        name: "Khóa học",
+        slug: "khoa-hoc",
+      },
+      {
+        id: "19.3",
+        name: "Nhà hàng - Ăn uống",
+        slug: "nha-hang-an-uong",
+      },
+      {
+        id: "19.4",
+        name: "Sự kiện - Giải trí",
+        slug: "su-kien-giai-tri",
+      },
+    ],
+  },
+];
+
+exports.filters = [
+  {
+    categoryId: null,
+    filterList: [
+      {
+        id: "category-menu",
+        name: "Danh mục sản phẩm",
+        metadata: [
+          {
+            id: "1",
+            name: "Bách hóa online",
+            slug: "bach-hoa-online",
+            quantity: 6,
+            children: [
+              {
+                id: "1.1",
+                name: "Ăn vặt & Bánh kẹo",
+                slug: "an-vat-banh-keo",
+                quantity: 1,
+              },
+              {
+                id: "1.2",
+                name: "Đặc sản Việt",
+                slug: "dac-san-viet",
+                quantity: 0,
+              },
+              {
+                id: "1.3",
+                name: "Đậu & Hạt",
+                slug: "dau-hat",
+                quantity: 0,
+              },
+              {
+                id: "1.4",
+                name: "Đồ hộp & Đóng gói",
+                slug: "do-hop-dong-goi",
+                quantity: 3,
+              },
+              {
+                id: "1.5",
+                name: "Đồ thú cưng",
+                slug: "do-thu-cung",
+                quantity: 0,
+              },
+              {
+                id: "1.6",
+                name: "Đồ uống",
+                slug: "do-uong",
+                quantity: 1,
+              },
+              {
+                id: "1.7",
+                name: "Nấu ăn & Làm bánh",
+                slug: "nau-an-lam-banh",
+                quantity: 0,
+              },
+              {
+                id: "1.8",
+                name: "Quà biếu",
+                slug: "qua-bieu",
+                quantity: 1,
+              },
+            ],
+          },
+          {
+            id: "2",
+            name: "Đồ chơi",
+            slug: "do-choi",
+            quantity: 6,
+            children: [
+              {
+                id: "2.1",
+                name: "Búp bê & Đồ chơi nhồi bông",
+                slug: "bup-be-do-choi-nhoi-bong",
+                quantity: 2,
+              },
+              {
+                id: "2.2",
+                name: "Đồ chơi cho trẻ sơ sinh & trẻ nhỏ",
+                slug: "do-choi-cho-tre-so-sinh-tre-nho",
+                quantity: 0,
+              },
+              {
+                id: "2.3",
+                name: "Đồ chơi giải trí",
+                slug: "do-choi-giai-tri",
+                quantity: 1,
+              },
+              {
+                id: "2.4",
+                name: "Đồ chơi giáo dục",
+                slug: "do-choi-giao-duc",
+                quantity: 1,
+              },
+              {
+                id: "2.5",
+                name: "Đồ chơi nhân vật & nhập vai",
+                slug: "do-choi-nhan-vat-nhap-vai",
+                quantity: 0,
+              },
+              {
+                id: "2.6",
+                name: "Đồ chơi vận động & ngoài trời",
+                slug: "do-choi-van-dong-ngoai-troi",
+                quantity: 2,
+              },
+            ],
+          },
+          {
+            id: "3",
+            name: "Đồng hồ",
+            slug: "dong-ho",
+            quantity: 7,
+            children: [
+              {
+                id: "3.1",
+                name: "Đồng hồ nam",
+                slug: "dong-ho-nam",
+                quantity: 3,
+              },
+              {
+                id: "3.2",
+                name: "Đồng hồ nữ",
+                slug: "dong-ho-nu",
+                quantity: 2,
+              },
+              {
+                id: "3.3",
+                name: "Đồng hồ trẻ em",
+                slug: "dong-ho-tre-em",
+                quantity: 1,
+              },
+              {
+                id: "3.4",
+                name: "Đồng hồ treo tường",
+                slug: "dong-ho-treo-tuong",
+                quantity: 1,
+              },
+            ],
+          },
+          {
+            id: "4",
+            name: "Giày dép nam",
+            slug: "giay-dep-nam",
+            quantity: 8,
+            children: [
+              {
+                id: "4.1",
+                name: "Dép",
+                slug: "dep",
+                quantity: 2,
+              },
+              {
+                id: "4.2",
+                name: "Giày dép unisex",
+                slug: "giay-dep-unisex",
+                quantity: 0,
+              },
+              {
+                id: "4.3",
+                name: "Giày lười",
+                slug: "giay-luoi",
+                quantity: 1,
+              },
+              {
+                id: "4.4",
+                name: "Giày tây",
+                slug: "giay-tay",
+                quantity: 1,
+              },
+              {
+                id: "4.5",
+                name: "Giày thể thao / Sneaker",
+                slug: "giay-the-thao-sneaker",
+                quantity: 3,
+              },
+              {
+                id: "4.6",
+                name: "Phụ kiện giày dép nam",
+                slug: "phu-kien-giay-dep-nam",
+                quantity: 1,
+              },
+              {
+                id: "4.7",
+                name: "Sandal nam",
+                slug: "sandal-nam",
+                quantity: 0,
+              },
+            ],
+          },
+          {
+            id: "5",
+            name: "Giày dép nữ",
+            slug: "giay-dep-nu",
+            quantity: 6,
+            children: [
+              {
+                id: "5.1",
+                name: "Bốt",
+                slug: "bot",
+                quantity: 1,
+              },
+              {
+                id: "5.2",
+                name: "Giày cao gót",
+                slug: "giay-cao-got",
+                quantity: 2,
+              },
+              {
+                id: "5.3",
+                name: "Giày đế xuồng",
+                slug: "giay-de-xuong",
+                quantity: 0,
+              },
+              {
+                id: "5.4",
+                name: "Giày đế bằng",
+                slug: "giay-de-xuong",
+                quantity: 0,
+              },
+              {
+                id: "5.5",
+                name: "Giày sneaker & Giày thể thao",
+                slug: "giay-sneaker-giay-the-thao",
+                quantity: 1,
+              },
+              {
+                id: "5.6",
+                name: "Guốc / Dép nữ",
+                slug: "guoc-dep-nu",
+                quantity: 1,
+              },
+              {
+                id: "5.7",
+                name: "Phụ kiện giày dép nữ",
+                slug: "phu-kien-giay-dep-nu",
+                quantity: 0,
+              },
+              {
+                id: "5.8",
+                name: "Sandal nữ",
+                slug: "sandal-nu",
+                quantity: 1,
+              },
+            ],
+          },
+          {
+            id: "6",
+            name: "Máy ảnh - Máy quay phim",
+            slug: "may-anh-may-quay-phim",
+            quantity: 7,
+            children: [
+              {
+                id: "6.1",
+                name: "Camera giám sát & Webcam",
+                slug: "camera-giam-sat-webcam",
+                quantity: 1,
+              },
+              {
+                id: "6.2",
+                name: "Máy ảnh DSLR",
+                slug: "may-anh-dslr",
+                quantity: 2,
+              },
+              {
+                id: "6.3",
+                name: "Máy ảnh du lịch & chụp lấy liền",
+                slug: "may-anh-du-lich-chup-lay-lien",
+                quantity: 1,
+              },
+              {
+                id: "6.4",
+                name: "Máy ảnh không gương lật",
+                slug: "may-anh-khong-guong-lat",
+                quantity: 0,
+              },
+              {
+                id: "6.5",
+                name: "Máy quay phim",
+                slug: "may-quay-phim",
+                quantity: 2,
+              },
+              {
+                id: "6.6",
+                name: "Phụ kiện máy ảnh",
+                slug: "phu-kien-may-anh",
+                quantity: 0,
+              },
+              {
+                id: "6.7",
+                name: "Thẻ nhớ",
+                slug: "the-nho",
+                quantity: 1,
+              },
+            ],
+          },
+          {
+            id: "7",
+            name: "Máy tính & Laptop",
+            slug: "may-tinh-laptop",
+            quantity: 5,
+            children: [
+              {
+                id: "7.1",
+                name: "Chuột, Bàn phím & Phụ kiện khác",
+                slug: "chuot-ban-phim-phu-kien-khac",
+                quantity: 1,
+              },
+              {
+                id: "7.2",
+                name: "Laptop",
+                slug: "laptop",
+                quantity: 2,
+              },
+              {
+                id: "7.3",
+                name: "Linh kiện máy tính",
+                slug: "linh-kien-may-tinh",
+                quantity: 0,
+              },
+              {
+                id: "7.4",
+                name: "Máy in, Máy scan & Máy chiếu",
+                slug: "may-in-may-scan-may-chieu",
+                quantity: 0,
+              },
+              {
+                id: "7.5",
+                name: "Máy tính bàn",
+                slug: "may-tinh-ban",
+                quantity: 2,
+              },
+              {
+                id: "7.6",
+                name: "Phần mềm",
+                slug: "phan-mem",
+                quantity: 0,
+              },
+              {
+                id: "7.7",
+                name: "Thiết bị mạng",
+                slug: "thiet-bi-mang",
+                quantity: 0,
+              },
+              {
+                id: "7.8",
+                name: "USB & Ổ cứng",
+                slug: "usb-o-cung",
+                quantity: 0,
+              },
+            ],
+          },
+          {
+            id: "8",
+            name: "Thiết bị điện tử",
+            slug: "thiet-bi-dien-tu",
+            quantity: 7,
+            children: [
+              {
+                id: "8.1",
+                name: "Android Tivi Box",
+                slug: "android-tivi-box",
+                quantity: 1,
+              },
+              {
+                id: "8.2",
+                name: "Phụ kiện & Thiết bị game",
+                slug: "phu-kien-thiet-bi-game",
+                quantity: 1,
+              },
+              {
+                id: "8.3",
+                name: "Phụ kiện Tivi",
+                slug: "phu-kien-tivi",
+                quantity: 1,
+              },
+              {
+                id: "8.4",
+                name: "Tai nghe",
+                slug: "tai-nghe",
+                quantity: 1,
+              },
+              {
+                id: "8.5",
+                name: "Thiết bị âm thanh",
+                slug: "thiet-bi-am-thanh",
+                quantity: 2,
+              },
+              {
+                id: "8.6",
+                name: "Thiết bị đeo thông minh",
+                slug: "thiet-bi-deo-thong-minh",
+                quantity: 1,
+              },
+              {
+                id: "8.7",
+                name: "Tivi",
+                slug: "tivi",
+                quantity: 0,
+              },
+            ],
+          },
+          {
+            id: "9",
+            name: "Ô tô - Xe máy - Xe đạp",
+            slug: "o-to-xe-may-xe-dap",
+            quantity: 10,
+            children: [
+              {
+                id: "9.1",
+                name: "Chăm sóc, sửa chữa xe",
+                slug: "cham-soc-sua-chua-xe",
+                quantity: 1,
+              },
+              {
+                id: "9.2",
+                name: "Mô tô, Xe máy, Xe đạp",
+                slug: "mo-to-xe-may-xe-dap",
+                quantity: 4,
+              },
+              {
+                id: "9.3",
+                name: "Phụ kiện, phụ tùng ô tô",
+                slug: "phu-kien-phu-tung-o-to",
+                quantity: 2,
+              },
+              {
+                id: "9.4",
+                name: "Phụ kiện, phụ tùng xe máy",
+                slug: "phu-kien-phu-tung-xe-may",
+                quantity: 2,
+              },
+              {
+                id: "9.5",
+                name: "Thiết bị tiện ích (xe)",
+                slug: "thiet-bi-tien-ich",
+                quantity: 1,
+              },
+            ],
+          },
+          {
+            id: "10",
+            name: "Phụ kiện thời trang",
+            slug: "phu-kien-thoi-trang",
+            quantity: 5,
+            children: [
+              {
+                id: "10.1",
+                name: "Dây lưng",
+                slug: "day-lung",
+                quantity: 1,
+              },
+              {
+                id: "10.2",
+                name: "Hình xăm",
+                slug: "hinh-xam",
+                quantity: 0,
+              },
+              {
+                id: "10.3",
+                name: "Khăn, Tất & Găng tay",
+                slug: "khan-tat-gang-tay",
+                quantity: 0,
+              },
+              {
+                id: "10.4",
+                name: "Khẩu trang",
+                slug: "khau-trang",
+                quantity: 1,
+              },
+              {
+                id: "10.5",
+                name: "Kính mắt",
+                slug: "kinh-mat",
+                quantity: 1,
+              },
+              {
+                id: "10.6",
+                name: "Nón & Dù",
+                slug: "non-du",
+                quantity: 0,
+              },
+              {
+                id: "10.7",
+                name: "Phụ kiện cưới",
+                slug: "phu-kien-cuoi",
+                quantity: 0,
+              },
+              {
+                id: "10.8",
+                name: "Phụ kiện tóc",
+                slug: "phu-kien-toc",
+                quantity: 0,
+              },
+              {
+                id: "10.9",
+                name: "Trang sức",
+                slug: "trang-suc",
+                quantity: 2,
+              },
+            ],
+          },
+          {
+            id: "11",
+            name: "Sức khỏe & Sắc đẹp",
+            slug: "suc-khoe-sac-dep",
+            quantity: 6,
+            children: [
+              {
+                id: "11.1",
+                name: "Chăm sóc da",
+                slug: "cham-soc-da",
+                quantity: 0,
+              },
+              {
+                id: "11.2",
+                name: "Chăm sóc móng",
+                slug: "cham-soc-mong",
+                quantity: 1,
+              },
+              {
+                id: "11.3",
+                name: "Chăm sóc răng miệng",
+                slug: "cham-soc-rang-mieng",
+                quantity: 1,
+              },
+              {
+                id: "11.4",
+                name: "Chăm sóc tóc",
+                slug: "cham-soc-toc",
+                quantity: 0,
+              },
+              {
+                id: "11.5",
+                name: "Dụng cụ làm đẹp",
+                slug: "dung-cu-lam-dep",
+                quantity: 0,
+              },
+              {
+                id: "11.6",
+                name: "Máy massage & Thiết bị y tế",
+                slug: "may-massage-thiet-bi-y-te",
+                quantity: 0,
+              },
+              {
+                id: "11.7",
+                name: "Mỹ phẩm nam",
+                slug: "my-pham-nam",
+                quantity: 0,
+              },
+              {
+                id: "11.8",
+                name: "Nước hoa",
+                slug: "nuoc-hoa",
+                quantity: 1,
+              },
+              {
+                id: "11.9",
+                name: "Son & Chăm sóc môi",
+                slug: "son-cham-soc-moi",
+                quantity: 1,
+              },
+              {
+                id: "11.10",
+                name: "Tắm & Chăm sóc cơ thể",
+                slug: "tam-cham-soc-co-the",
+                quantity: 0,
+              },
+              {
+                id: "11.11",
+                name: "Trang điểm da",
+                slug: "trang-diem-da",
+                quantity: 0,
+              },
+              {
+                id: "11.12",
+                name: "Trang điểm mắt",
+                slug: "trang-diem-mat",
+                quantity: 1,
+              },
+              {
+                id: "11.13",
+                name: "Vệ sinh phụ nữ & Hỗ trợ tình dục",
+                slug: "ve-sinh-phu-nu-ho-tro-tinh-duc",
+                quantity: 0,
+              },
+              {
+                id: "11.14",
+                name: "Vitamin & Thực phẩm chức năng",
+                slug: "vitamin-thuc-pham-chuc-nang",
+                quantity: 1,
+              },
+            ],
+          },
+          {
+            id: "12",
+            name: "Điện thoại và phụ kiện",
+            slug: "dien-thoai-phu-kien",
+            quantity: 8,
+            children: [
+              {
+                id: "12.1",
+                name: "Điện thoại",
+                slug: "dien-thoai",
+                quantity: 4,
+              },
+              {
+                id: "12.2",
+                name: "Gậy chụp hình",
+                slug: "gay-chup-hinh",
+                quantity: 0,
+              },
+              {
+                id: "12.3",
+                name: "Giá đỡ & Kẹp",
+                slug: "gia-do-kep",
+                quantity: 0,
+              },
+              {
+                id: "12.4",
+                name: "Máy tính bảng",
+                slug: "may-tinh-bang",
+                quantity: 2,
+              },
+              {
+                id: "12.5",
+                name: "Miếng dán màn hình",
+                slug: "mieng-dan-man-hinh",
+                quantity: 1,
+              },
+              {
+                id: "12.6",
+                name: "Pin sạc dự phòng",
+                slug: "pin-sac-du-phong",
+                quantity: 0,
+              },
+              {
+                id: "12.7",
+                name: "Pin, Cáp & Bộ sạc",
+                slug: "pin-cap-bo-sac",
+                quantity: 0,
+              },
+              {
+                id: "12.8",
+                name: "Sim",
+                slug: "sim",
+                quantity: 0,
+              },
+              {
+                id: "12.9",
+                name: "Vỏ, Bao & Ốp lưng",
+                slug: "vo-bao-op-lung",
+                quantity: 1,
+              },
+            ],
+          },
+          {
+            id: "13",
+            name: "Thiết bị điện gia dụng",
+            slug: "thiet-bi-dien-gia-dung",
+            quantity: 5,
+            children: [
+              {
+                id: "13.1",
+                name: "Đồ gia dụng lớn",
+                slug: "do-gia-dung-lon",
+                quantity: 0,
+              },
+              {
+                id: "13.2",
+                name: "Đồ gia dụng nhà bếp",
+                slug: "do-gia-dung-nha-bep",
+                quantity: 3,
+              },
+              {
+                id: "13.3",
+                name: "Thiết bị làm sạch",
+                slug: "thiet-bi-lam-sach",
+                quantity: 1,
+              },
+              {
+                id: "13.4",
+                name: "Quạt & Máy nóng lạnh",
+                slug: "quat-may-nong-lanh",
+                quantity: 0,
+              },
+              {
+                id: "13.5",
+                name: "Thiết bị chăm sóc quần áo",
+                slug: "thiet-bi-cham-soc-quan-ao",
+                quantity: 1,
+              },
+            ],
+          },
+          {
+            id: "14",
+            name: "Nhà cửa & Đời sống",
+            slug: "nha-cua-doi-song",
+            quantity: 10,
+            children: [
+              {
+                id: "14.1",
+                name: "Chăn, Ga, Gối & Nệm",
+                slug: "chan-ga-goi-nem",
+                quantity: 1,
+              },
+              {
+                id: "14.2",
+                name: "Đèn",
+                slug: "den",
+                quantity: 0,
+              },
+              {
+                id: "14.3",
+                name: "Đồ dùng nhà bếp & Phòng ăn",
+                slug: "do-dung-nha-bep-phong-an",
+                quantity: 1,
+              },
+              {
+                id: "14.4",
+                name: "Đồ dùng phòng tắm",
+                slug: "do-dung-phong-tam",
+                quantity: 1,
+              },
+              {
+                id: "14.5",
+                name: "Đồ nội thất",
+                slug: "do-noi-that",
+                quantity: 6,
+              },
+              {
+                id: "14.6",
+                name: "Dụng cụ & Thiết bị tiện ích",
+                slug: "dung-cu-thiet-bi-tien-ich",
+                quantity: 0,
+              },
+              {
+                id: "14.7",
+                name: "Dụng cụ cầm tay",
+                slug: "dung-cu-cam-tay",
+                quantity: 0,
+              },
+              {
+                id: "14.8",
+                name: "Ngoài trời & Sân vườn",
+                slug: "ngoai-troi-san-vuon",
+                quantity: 1,
+              },
+            ],
+          },
+          {
+            id: "15",
+            name: "Mẹ & Bé",
+            slug: "me-be",
+            quantity: 4,
+            children: [
+              {
+                id: "15.1",
+                name: "Đồ dùng cho bé",
+                slug: "do-dung-cho-be",
+                quantity: 0,
+              },
+              {
+                id: "15.2",
+                name: "Ghế, Nui, Cũi, Xe đẩy & Địu",
+                slug: "ghe-nui-cui-xe-day-diu",
+                quantity: 1,
+              },
+              {
+                id: "15.3",
+                name: "Quần áo & Phụ kiện sơ sinh",
+                slug: "quan-ao-phu-kien-so-sinh",
+                quantity: 1,
+              },
+              {
+                id: "15.4",
+                name: "Sữa & Đồ ăn",
+                slug: "sua-do-an",
+                quantity: 1,
+              },
+              {
+                id: "15.5",
+                name: "Tã & Bỉm",
+                slug: "ta-bim",
+                quantity: 1,
+              },
+            ],
+          },
+          {
+            id: "16",
+            name: "Thời trang nam",
+            slug: "thoi-trang-nam",
+            quantity: 9,
+            children: [
+              {
+                id: "16.1",
+                name: "Áo khoác và Áo vest",
+                slug: "ao-khoac-ao-vest",
+                quantity: 2,
+              },
+              {
+                id: "16.2",
+                name: "Áo nỉ / Áo len",
+                slug: "ao-ni-ao-len",
+                quantity: 1,
+              },
+              {
+                id: "16.3",
+                name: "Áo sơ mi",
+                slug: "ao-so-mi",
+                quantity: 2,
+              },
+              {
+                id: "16.4",
+                name: "Áo thun",
+                slug: "ao-thun",
+                quantity: 2,
+              },
+              {
+                id: "16.5",
+                name: "Đồ bộ / Đồ mặc trong nhà",
+                slug: "do-bo-do-mac-trong-nha",
+                quantity: 0,
+              },
+              {
+                id: "16.6",
+                name: "Quần",
+                slug: "quan",
+                quantity: 2,
+              },
+              {
+                id: "16.7",
+                name: "Phụ kiện nam",
+                slug: "phu-kien-nam",
+                quantity: 0,
+              },
+            ],
+          },
+          {
+            id: "17",
+            name: "Thời trang nữ",
+            slug: "thoi-trang-nu",
+            quantity: 6,
+            children: [
+              {
+                id: "17.1",
+                name: "Áo",
+                slug: "ao",
+                quantity: 1,
+              },
+              {
+                id: "17.2",
+                name: "Váy",
+                slug: "vay",
+                quantity: 2,
+              },
+              {
+                id: "17.3",
+                name: "Đầm",
+                slug: "dam",
+                quantity: 2,
+              },
+              {
+                id: "17.4",
+                name: "Đồ lót, Đồ ngủ & Đồ mặc trong nhà",
+                slug: "do-lot-do-ngu-do-mac-trong-nha",
+                quantity: 0,
+              },
+              {
+                id: "17.5",
+                name: "Quần nữ",
+                slug: "quan-nu",
+                quantity: 1,
+              },
+              {
+                id: "17.6",
+                name: "Đồ bơi",
+                slug: "do-boi",
+                quantity: 0,
+              },
+            ],
+          },
+          {
+            id: "18",
+            name: "Túi ví",
+            slug: "tui-vi",
+            quantity: 5,
+            children: [
+              {
+                id: "18.1",
+                name: "Balo thời trang",
+                slug: "balo-thoi-trang",
+                quantity: 1,
+              },
+              {
+                id: "18.2",
+                name: "Cặp văn phòng",
+                slug: "cap-van-phong",
+                quantity: 0,
+              },
+              {
+                id: "18.3",
+                name: "Túi đeo chéo",
+                slug: "tui-deo-cheo",
+                quantity: 1,
+              },
+              {
+                id: "18.4",
+                name: "Túi đựng tiện ích",
+                slug: "tui-dung-tien-ich",
+                quantity: 0,
+              },
+              {
+                id: "18.5",
+                name: "Ví nam",
+                slug: "vi-nam",
+                quantity: 1,
+              },
+              {
+                id: "18.6",
+                name: "Ví nữ",
+                slug: "vi-nu",
+                quantity: 2,
+              },
+            ],
+          },
+          {
+            id: "19",
+            name: "Voucher & Dịch vụ",
+            slug: "voucher-dich-vu",
+            quantity: 1,
+            children: [
+              {
+                id: "19.1",
+                name: "Du lịch - Khách sạn",
+                slug: "du-lich-khach-san",
+                quantity: 0,
+              },
+              {
+                id: "19.2",
+                name: "Khóa học",
+                slug: "khoa-hoc",
+                quantity: 1,
+              },
+              {
+                id: "19.3",
+                name: "Nhà hàng - Ăn uống",
+                slug: "nha-hang-an-uong",
+                quantity: 0,
+              },
+              {
+                id: "19.4",
+                name: "Sự kiện - Giải trí",
+                slug: "su-kien-giai-tri",
+                quantity: 0,
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "filter-price",
+        name: "Lọc theo giá",
+      },
+    ],
+  },
+  {
+    categoryId: "1",
+    filterList: [
+      {
+        id: "category-menu",
+        name: "Danh mục sản phẩm",
+        metadata: [
+          {
+            id: "1.1",
+            name: "Ăn vặt & Bánh kẹo",
+            slug: "an-vat-banh-keo",
+            quantity: 1,
+          },
+          {
+            id: "1.2",
+            name: "Đặc sản Việt",
+            slug: "dac-san-viet",
+            quantity: 0,
+          },
+          {
+            id: "1.3",
+            name: "Đậu & Hạt",
+            slug: "dau-hat",
+            quantity: 0,
+          },
+          {
+            id: "1.4",
+            name: "Đồ hộp & Đóng gói",
+            slug: "do-hop-dong-goi",
+            quantity: 3,
+          },
+          {
+            id: "1.5",
+            name: "Đồ thú cưng",
+            slug: "do-thu-cung",
+            quantity: 0,
+          },
+          {
+            id: "1.6",
+            name: "Đồ uống",
+            slug: "do-uong",
+            quantity: 1,
+          },
+          {
+            id: "1.7",
+            name: "Nấu ăn & Làm bánh",
+            slug: "nau-an-lam-banh",
+            quantity: 0,
+          },
+          {
+            id: "1.8",
+            name: "Quà biếu",
+            slug: "qua-bieu",
+            quantity: 1,
+          },
+        ],
+      },
+      {
+        id: "filter-price",
+        name: "Lọc theo giá",
+      },
+      {
+        id: "filter-color",
+        name: "Màu Sắc",
+        metadata: [
+          { name: "Đỏ", value: "red" },
+          { name: "Trắng", value: "white" },
+          { name: "Vàng", value: "yellow" },
+          { name: "Xanh lam", value: "blue" },
+          { name: "Hồng", value: "pink" },
+          { name: "Xanh lục", value: "green" },
+        ],
+      },
+      {
+        id: "filter-address",
+        name: "Xuất xứ",
+        metadata: [
+          { name: "Hồ Chí Minh", value: "ho chi minh" },
+          { name: "Hà Nội", value: "ha noi" },
+          { name: "Đà Nẵng", value: "da nang" },
+          { name: "Nước ngoài", value: "nuoc ngoai" },
+        ],
+      },
+    ],
+  },
+  {
+    categoryId: "2",
+    filterList: [
+      {
+        id: "category-menu",
+        name: "Danh mục sản phẩm",
+        metadata: [
+          {
+            id: "2.1",
+            name: "Búp bê & Đồ chơi nhồi bông",
+            slug: "bup-be-do-choi-nhoi-bong",
+            quantity: 2,
+          },
+          {
+            id: "2.2",
+            name: "Đồ chơi cho trẻ sơ sinh & trẻ nhỏ",
+            slug: "do-choi-cho-tre-so-sinh-tre-nho",
+            quantity: 0,
+          },
+          {
+            id: "2.3",
+            name: "Đồ chơi giải trí",
+            slug: "do-choi-giai-tri",
+            quantity: 1,
+          },
+          {
+            id: "2.4",
+            name: "Đồ chơi giáo dục",
+            slug: "do-choi-giao-duc",
+            quantity: 1,
+          },
+          {
+            id: "2.5",
+            name: "Đồ chơi nhân vật & nhập vai",
+            slug: "do-choi-nhan-vat-nhap-vai",
+            quantity: 0,
+          },
+          {
+            id: "2.6",
+            name: "Đồ chơi vận động & ngoài trời",
+            slug: "do-choi-van-dong-ngoai-troi",
+            quantity: 2,
+          },
+        ],
+      },
+      {
+        id: "filter-price",
+        name: "Lọc theo giá",
+      },
+      {
+        id: "filter-color",
+        name: "Màu Sắc",
+        metadata: [
+          { name: "Đỏ", value: "red" },
+          { name: "Trắng", value: "white" },
+          { name: "Đen", value: "black" },
+          { name: "Nâu", value: "brown" },
+          { name: "Hồng", value: "pink" },
+          { name: "Xanh", value: "blue" },
+          { name: "Vàng", value: "yellow" },
+          { name: "Xám", value: "gray" },
+        ],
+      },
+      {
+        id: "filter-age",
+        name: "Độ tuổi phù hợp",
+        metadata: [
+          { name: "2 tuổi trở lên", value: "2 years" },
+          { name: "4 tuổi trở lên", value: "4 years" },
+          { name: "8 tuổi trở lên", value: "8 years" },
+        ],
+      },
+    ],
+  },
+  {
+    categoryId: "3",
+    filterList: [
+      {
+        id: "category-menu",
+        name: "Danh mục sản phẩm",
+        metadata: [
+          {
+            id: "3.1",
+            name: "Đồng hồ nam",
+            slug: "dong-ho-nam",
+            quantity: 3,
+          },
+          {
+            id: "3.2",
+            name: "Đồng hồ nữ",
+            slug: "dong-ho-nu",
+            quantity: 2,
+          },
+          {
+            id: "3.3",
+            name: "Đồng hồ trẻ em",
+            slug: "dong-ho-tre-em",
+            quantity: 1,
+          },
+          {
+            id: "3.4",
+            name: "Đồng hồ treo tường",
+            slug: "dong-ho-treo-tuong",
+            quantity: 1,
+          },
+        ],
+      },
+      {
+        id: "filter-price",
+        name: "Lọc theo giá",
+      },
+      {
+        id: "filter-color",
+        name: "Màu Sắc",
+        metadata: [
+          { name: "Đỏ", value: "red" },
+          { name: "Trắng", value: "white" },
+          { name: "Nâu", value: "brown" },
+          { name: "Đen", value: "black" },
+          { name: "Bạc", value: "silver" },
+          { name: "Vàng", value: "gold" },
+          { name: "Xanh", value: "blue" },
+          { name: "Hồng", value: "pink" },
+        ],
+      },
+      {
+        id: "filter-feature",
+        name: "Tính năng",
+        metadata: [
+          { name: "Độ bền", value: "reliability" },
+          { name: "Nhanh nhẹn", value: "agile" },
+          { name: "Chống nước", value: "waterproof" },
+          { name: "Bấm giờ", value: "stopwatch" },
+        ],
+      },
+    ],
+  },
+  {
+    categoryId: "4",
+    filterList: [
+      {
+        id: "category-menu",
+        name: "Danh mục sản phẩm",
+        metadata: [
+          {
+            id: "4.1",
+            name: "Dép",
+            slug: "dep",
+            quantity: 2,
+          },
+          {
+            id: "4.2",
+            name: "Giày dép unisex",
+            slug: "giay-dep-unisex",
+            quantity: 0,
+          },
+          {
+            id: "4.3",
+            name: "Giày lười",
+            slug: "giay-luoi",
+            quantity: 1,
+          },
+          {
+            id: "4.4",
+            name: "Giày tây",
+            slug: "giay-tay",
+            quantity: 1,
+          },
+          {
+            id: "4.5",
+            name: "Giày thể thao / Sneaker",
+            slug: "giay-the-thao-sneaker",
+            quantity: 3,
+          },
+          {
+            id: "4.6",
+            name: "Phụ kiện giày dép nam",
+            slug: "phu-kien-giay-dep-nam",
+            quantity: 1,
+          },
+          {
+            id: "4.7",
+            name: "Sandal nam",
+            slug: "sandal-nam",
+            quantity: 0,
+          },
+        ],
+      },
+      {
+        id: "filter-price",
+        name: "Lọc theo giá",
+      },
+      {
+        id: "filter-size",
+        name: "Kích cỡ",
+        metadata: [
+          { name: "35", value: "35" },
+          { name: "36", value: "36" },
+          { name: "37", value: "37" },
+          { name: "38", value: "38" },
+          { name: "39", value: "39" },
+          { name: "40", value: "40" },
+          { name: "41", value: "41" },
+          { name: "42", value: "42" },
+          { name: "43", value: "43" },
+          { name: "44", value: "44" },
+          { name: "45", value: "45" },
+        ],
+      },
+      {
+        id: "filter-color",
+        name: "Màu sắc",
+        metadata: [
+          { name: "Đen", value: "black" },
+          { name: "Trắng", value: "white" },
+          { name: "Xanh", value: "blue" },
+          { name: "Hồng", value: "pink" },
+          { name: "Đỏ", value: "red" },
+          { name: "Xám", value: "gray" },
+          { name: "Nâu", value: "brown" },
+          { name: "Cam", value: "orange" },
+        ],
+      },
+    ],
+  },
+  {
+    categoryId: "5",
+    filterList: [
+      {
+        id: "category-menu",
+        name: "Danh mục sản phẩm",
+        metadata: [
+          {
+            id: "5.1",
+            name: "Bốt",
+            slug: "bot",
+            quantity: 1,
+          },
+          {
+            id: "5.2",
+            name: "Giày cao gót",
+            slug: "giay-cao-got",
+            quantity: 2,
+          },
+          {
+            id: "5.3",
+            name: "Giày đế xuồng",
+            slug: "giay-de-xuong",
+            quantity: 0,
+          },
+          {
+            id: "5.4",
+            name: "Giày đế bằng",
+            slug: "giay-de-xuong",
+            quantity: 0,
+          },
+          {
+            id: "5.5",
+            name: "Giày sneaker & Giày thể thao",
+            slug: "giay-sneaker-giay-the-thao",
+            quantity: 1,
+          },
+          {
+            id: "5.6",
+            name: "Guốc / Dép nữ",
+            slug: "guoc-dep-nu",
+            quantity: 1,
+          },
+          {
+            id: "5.7",
+            name: "Phụ kiện giày dép nữ",
+            slug: "phu-kien-giay-dep-nu",
+            quantity: 0,
+          },
+          {
+            id: "5.8",
+            name: "Sandal nữ",
+            slug: "sandal-nu",
+            quantity: 1,
+          },
+        ],
+      },
+      {
+        id: "filter-price",
+        name: "Lọc theo giá",
+      },
+      {
+        id: "filter-color",
+        name: "Màu sắc",
+        metadata: [
+          { name: "Đen", value: "black" },
+          { name: "Trắng", value: "white" },
+          { name: "Xanh", value: "blue" },
+          { name: "Hồng", value: "pink" },
+          { name: "Đỏ", value: "red" },
+          { name: "Xám", value: "gray" },
+          { name: "Nâu", value: "brown" },
+          { name: "Vàng", value: "yellow" },
+        ],
+      },
+      {
+        id: "filter-size",
+        name: "Kích cỡ",
+        metadata: [
+          { name: "34", value: "34" },
+          { name: "35", value: "35" },
+          { name: "36", value: "36" },
+          { name: "37", value: "37" },
+          { name: "38", value: "38" },
+          { name: "39", value: "39" },
+          { name: "40", value: "40" },
+          { name: "41", value: "41" },
+          { name: "42", value: "42" },
+          { name: "43", value: "43" },
+        ],
+      },
+    ],
+  },
+  {
+    categoryId: "6",
+    filterList: [
+      {
+        id: "category-menu",
+        name: "Danh mục sản phẩm",
+        metadata: [
+          {
+            id: "6.1",
+            name: "Camera giám sát & Webcam",
+            slug: "camera-giam-sat-webcam",
+            quantity: 1,
+          },
+          {
+            id: "6.2",
+            name: "Máy ảnh DSLR",
+            slug: "may-anh-dslr",
+            quantity: 2,
+          },
+          {
+            id: "6.3",
+            name: "Máy ảnh du lịch & chụp lấy liền",
+            slug: "may-anh-du-lich-chup-lay-lien",
+            quantity: 1,
+          },
+          {
+            id: "6.4",
+            name: "Máy ảnh không gương lật",
+            slug: "may-anh-khong-guong-lat",
+            quantity: 0,
+          },
+          {
+            id: "6.5",
+            name: "Máy quay phim",
+            slug: "may-quay-phim",
+            quantity: 2,
+          },
+          {
+            id: "6.6",
+            name: "Phụ kiện máy ảnh",
+            slug: "phu-kien-may-anh",
+            quantity: 0,
+          },
+          {
+            id: "6.7",
+            name: "Thẻ nhớ",
+            slug: "the-nho",
+            quantity: 1,
+          },
+        ],
+      },
+      {
+        id: "filter-price",
+        name: "Lọc theo giá",
+      },
+      {
+        id: "filter-brand",
+        name: "Thương hiệu",
+        metadata: [
+          { name: "Sony", value: "sony" },
+          { name: "Canon", value: "canon" },
+          { name: "Andoer", value: "andoer" },
+          { name: "Ekleva", value: "ekleva" },
+          { name: "Nikon", value: "nikon" },
+        ],
+      },
+    ],
+  },
+  {
+    categoryId: "7",
+    filterList: [
+      {
+        id: "category-menu",
+        name: "Danh mục sản phẩm",
+        metadata: [
+          {
+            id: "7.1",
+            name: "Chuột, Bàn phím & Phụ kiện khác",
+            slug: "chuot-ban-phim-phu-kien-khac",
+            quantity: 1,
+          },
+          {
+            id: "7.2",
+            name: "Laptop",
+            slug: "laptop",
+            quantity: 2,
+          },
+          {
+            id: "7.3",
+            name: "Linh kiện máy tính",
+            slug: "linh-kien-may-tinh",
+            quantity: 0,
+          },
+          {
+            id: "7.4",
+            name: "Máy in, Máy scan & Máy chiếu",
+            slug: "may-in-may-scan-may-chieu",
+            quantity: 0,
+          },
+          {
+            id: "7.5",
+            name: "Máy tính bàn",
+            slug: "may-tinh-ban",
+            quantity: 2,
+          },
+          {
+            id: "7.6",
+            name: "Phần mềm",
+            slug: "phan-mem",
+            quantity: 0,
+          },
+          {
+            id: "7.7",
+            name: "Thiết bị mạng",
+            slug: "thiet-bi-mang",
+            quantity: 0,
+          },
+          {
+            id: "7.8",
+            name: "USB & Ổ cứng",
+            slug: "usb-o-cung",
+            quantity: 0,
+          },
+        ],
+      },
+      {
+        id: "filter-price",
+        name: "Lọc theo giá",
+      },
+    ],
+  },
+  {
+    categoryId: "8",
+    filterList: [
+      {
+        id: "category-menu",
+        name: "Danh mục sản phẩm",
+        metadata: [
+          {
+            id: "8.1",
+            name: "Android Tivi Box",
+            slug: "android-tivi-box",
+            quantity: 1,
+          },
+          {
+            id: "8.2",
+            name: "Phụ kiện & Thiết bị game",
+            slug: "phu-kien-thiet-bi-game",
+            quantity: 1,
+          },
+          {
+            id: "8.3",
+            name: "Phụ kiện Tivi",
+            slug: "phu-kien-tivi",
+            quantity: 1,
+          },
+          {
+            id: "8.4",
+            name: "Tai nghe",
+            slug: "tai-nghe",
+            quantity: 1,
+          },
+          {
+            id: "8.5",
+            name: "Thiết bị âm thanh",
+            slug: "thiet-bi-am-thanh",
+            quantity: 2,
+          },
+          {
+            id: "8.6",
+            name: "Thiết bị đeo thông minh",
+            slug: "thiet-bi-deo-thong-minh",
+            quantity: 1,
+          },
+          {
+            id: "8.7",
+            name: "Tivi",
+            slug: "tivi",
+            quantity: 0,
+          },
+        ],
+      },
+      {
+        id: "filter-price",
+        name: "Lọc theo giá",
+      },
+    ],
+  },
+  {
+    categoryId: "9",
+    filterList: [
+      {
+        id: "category-menu",
+        name: "Danh mục sản phẩm",
+        metadata: [
+          {
+            id: "9.1",
+            name: "Chăm sóc, sửa chữa xe",
+            slug: "cham-soc-sua-chua-xe",
+            quantity: 1,
+          },
+          {
+            id: "9.2",
+            name: "Mô tô, Xe máy, Xe đạp",
+            slug: "mo-to-xe-may-xe-dap",
+            quantity: 4,
+          },
+          {
+            id: "9.3",
+            name: "Phụ kiện, phụ tùng ô tô",
+            slug: "phu-kien-phu-tung-o-to",
+            quantity: 2,
+          },
+          {
+            id: "9.4",
+            name: "Phụ kiện, phụ tùng xe máy",
+            slug: "phu-kien-phu-tung-xe-may",
+            quantity: 2,
+          },
+          {
+            id: "9.5",
+            name: "Thiết bị tiện ích (xe)",
+            slug: "thiet-bi-tien-ich",
+            quantity: 1,
+          },
+        ],
+      },
+      {
+        id: "filter-price",
+        name: "Lọc theo giá",
+      },
+    ],
+  },
+  {
+    categoryId: "10",
+    filterList: [
+      {
+        id: "category-menu",
+        name: "Danh mục sản phẩm",
+        metadata: [
+          {
+            id: "10.1",
+            name: "Dây lưng",
+            slug: "day-lung",
+            quantity: 1,
+          },
+          {
+            id: "10.2",
+            name: "Hình xăm",
+            slug: "hinh-xam",
+            quantity: 0,
+          },
+          {
+            id: "10.3",
+            name: "Khăn, Tất & Găng tay",
+            slug: "khan-tat-gang-tay",
+            quantity: 0,
+          },
+          {
+            id: "10.4",
+            name: "Khẩu trang",
+            slug: "khau-trang",
+            quantity: 1,
+          },
+          {
+            id: "10.5",
+            name: "Kính mắt",
+            slug: "kinh-mat",
+            quantity: 1,
+          },
+          {
+            id: "10.6",
+            name: "Nón & Dù",
+            slug: "non-du",
+            quantity: 0,
+          },
+          {
+            id: "10.7",
+            name: "Phụ kiện cưới",
+            slug: "phu-kien-cuoi",
+            quantity: 0,
+          },
+          {
+            id: "10.8",
+            name: "Phụ kiện tóc",
+            slug: "phu-kien-toc",
+            quantity: 0,
+          },
+          {
+            id: "10.9",
+            name: "Trang sức",
+            slug: "trang-suc",
+            quantity: 2,
+          },
+        ],
+      },
+      {
+        id: "filter-price",
+        name: "Lọc theo giá",
+      },
+      {
+        id: "filter-color",
+        name: "Màu sắc",
+        metadata: [
+          { name: "Đen", value: "black" },
+          { name: "Trắng", value: "white" },
+          { name: "Vàng", value: "gold" },
+          { name: "Bạc", value: "silver" },
+          { name: "Đỏ", value: "red" },
+          { name: "Hồng", value: "pink" },
+          { name: "Xanh dương", value: "blue" },
+          { name: "Xanh lá", value: "green" },
+          { name: "Xám", value: "gray" },
+          { name: "Nâu", value: "brown" },
+          { name: "Cam", value: "orange" },
+          { name: "Tím", value: "purple" },
+        ],
+      },
+      {
+        id: "filter-material",
+        name: "Chất liệu",
+        metadata: [
+          { name: "Nhựa", value: "plastic" },
+          { name: "Kim loại", value: "metal" },
+          { name: "Vải", value: "fabric" },
+          { name: "Ngọc trai", value: "pearl" },
+        ],
+      },
+    ],
+  },
+  {
+    categoryId: "11",
+    filterList: [
+      {
+        id: "category-menu",
+        name: "Danh mục sản phẩm",
+        metadata: [
+          {
+            id: "11.1",
+            name: "Chăm sóc da",
+            slug: "cham-soc-da",
+            quantity: 0,
+          },
+          {
+            id: "11.2",
+            name: "Chăm sóc móng",
+            slug: "cham-soc-mong",
+            quantity: 1,
+          },
+          {
+            id: "11.3",
+            name: "Chăm sóc răng miệng",
+            slug: "cham-soc-rang-mieng",
+            quantity: 1,
+          },
+          {
+            id: "11.4",
+            name: "Chăm sóc tóc",
+            slug: "cham-soc-toc",
+            quantity: 0,
+          },
+          {
+            id: "11.5",
+            name: "Dụng cụ làm đẹp",
+            slug: "dung-cu-lam-dep",
+            quantity: 0,
+          },
+          {
+            id: "11.6",
+            name: "Máy massage & Thiết bị y tế",
+            slug: "may-massage-thiet-bi-y-te",
+            quantity: 0,
+          },
+          {
+            id: "11.7",
+            name: "Mỹ phẩm nam",
+            slug: "my-pham-nam",
+            quantity: 0,
+          },
+          {
+            id: "11.8",
+            name: "Nước hoa",
+            slug: "nuoc-hoa",
+            quantity: 1,
+          },
+          {
+            id: "11.9",
+            name: "Son & Chăm sóc môi",
+            slug: "son-cham-soc-moi",
+            quantity: 1,
+          },
+          {
+            id: "11.10",
+            name: "Tắm & Chăm sóc cơ thể",
+            slug: "tam-cham-soc-co-the",
+            quantity: 0,
+          },
+          {
+            id: "11.11",
+            name: "Trang điểm da",
+            slug: "trang-diem-da",
+            quantity: 0,
+          },
+          {
+            id: "11.12",
+            name: "Trang điểm mắt",
+            slug: "trang-diem-mat",
+            quantity: 1,
+          },
+          {
+            id: "11.13",
+            name: "Vệ sinh phụ nữ & Hỗ trợ tình dục",
+            slug: "ve-sinh-phu-nu-ho-tro-tinh-duc",
+            quantity: 0,
+          },
+          {
+            id: "11.14",
+            name: "Vitamin & Thực phẩm chức năng",
+            slug: "vitamin-thuc-pham-chuc-nang",
+            quantity: 1,
+          },
+        ],
+      },
+      {
+        id: "filter-price",
+        name: "Lọc theo giá",
+      },
+      {
+        id: "filter-address",
+        name: "Xuất xứ",
+        metadata: [
+          { name: "Việt Nam", value: "ha noi" },
+          { name: "Nước Ngoài", value: "nuoc ngoai" },
+        ],
+      },
+    ],
+  },
+  {
+    categoryId: "12",
+    filterList: [
+      {
+        id: "category-menu",
+        name: "Danh mục sản phẩm",
+        metadata: [
+          {
+            id: "12.1",
+            name: "Điện thoại",
+            slug: "dien-thoai",
+            quantity: 4,
+          },
+          {
+            id: "12.2",
+            name: "Gậy chụp hình",
+            slug: "gay-chup-hinh",
+            quantity: 0,
+          },
+          {
+            id: "12.3",
+            name: "Giá đỡ & Kẹp",
+            slug: "gia-do-kep",
+            quantity: 0,
+          },
+          {
+            id: "12.4",
+            name: "Máy tính bảng",
+            slug: "may-tinh-bang",
+            quantity: 2,
+          },
+          {
+            id: "12.5",
+            name: "Miếng dán màn hình",
+            slug: "mieng-dan-man-hinh",
+            quantity: 1,
+          },
+          {
+            id: "12.6",
+            name: "Pin sạc dự phòng",
+            slug: "pin-sac-du-phong",
+            quantity: 0,
+          },
+          {
+            id: "12.7",
+            name: "Pin, Cáp & Bộ sạc",
+            slug: "pin-cap-bo-sac",
+            quantity: 0,
+          },
+          {
+            id: "12.8",
+            name: "Sim",
+            slug: "sim",
+            quantity: 0,
+          },
+          {
+            id: "12.9",
+            name: "Vỏ, Bao & Ốp lưng",
+            slug: "vo-bao-op-lung",
+            quantity: 1,
+          },
+        ],
+      },
+      {
+        id: "filter-price",
+        name: "Lọc theo giá",
+      },
+      {
+        id: "filter-brand",
+        name: "Thương hiệu sản phẩm tương thích",
+        metadata: [
+          { name: "Apple", value: "apple" },
+          { name: "Samsung", value: "samsung" },
+          { name: "Xiaomi", value: "xiaomi" },
+          { name: "Oppo", value: "oppo" },
+        ],
+      },
+    ],
+  },
+  {
+    categoryId: "13",
+    filterList: [
+      {
+        id: "category-menu",
+        name: "Danh mục sản phẩm",
+        metadata: [
+          {
+            id: "13.1",
+            name: "Đồ gia dụng lớn",
+            slug: "do-gia-dung-lon",
+            quantity: 0,
+          },
+          {
+            id: "13.2",
+            name: "Đồ gia dụng nhà bếp",
+            slug: "do-gia-dung-nha-bep",
+            quantity: 3,
+          },
+          {
+            id: "13.3",
+            name: "Thiết bị làm sạch",
+            slug: "thiet-bi-lam-sach",
+            quantity: 1,
+          },
+          {
+            id: "13.4",
+            name: "Quạt & Máy nóng lạnh",
+            slug: "quat-may-nong-lanh",
+            quantity: 0,
+          },
+          {
+            id: "13.5",
+            name: "Thiết bị chăm sóc quần áo",
+            slug: "thiet-bi-cham-soc-quan-ao",
+            quantity: 1,
+          },
+        ],
+      },
+      {
+        id: "filter-price",
+        name: "Lọc theo giá",
+      },
+      {
+        id: "filter-material",
+        name: "Chất liệu",
+        metadata: [
+          { name: "Nhựa", value: "plastic" },
+          { name: "Thép", value: "steel" },
+          { name: "Gỗ", value: "wood" },
+        ],
+      },
+    ],
+  },
+  {
+    categoryId: "14",
+    filterList: [
+      {
+        id: "category-menu",
+        name: "Danh mục sản phẩm",
+        metadata: [
+          {
+            id: "14.1",
+            name: "Chăn, Ga, Gối & Nệm",
+            slug: "chan-ga-goi-nem",
+            quantity: 1,
+          },
+          {
+            id: "14.2",
+            name: "Đèn",
+            slug: "den",
+            quantity: 0,
+          },
+          {
+            id: "14.3",
+            name: "Đồ dùng nhà bếp & Phòng ăn",
+            slug: "do-dung-nha-bep-phong-an",
+            quantity: 1,
+          },
+          {
+            id: "14.4",
+            name: "Đồ dùng phòng tắm",
+            slug: "do-dung-phong-tam",
+            quantity: 1,
+          },
+          {
+            id: "14.5",
+            name: "Đồ nội thất",
+            slug: "do-noi-that",
+            quantity: 6,
+          },
+          {
+            id: "14.6",
+            name: "Dụng cụ & Thiết bị tiện ích",
+            slug: "dung-cu-thiet-bi-tien-ich",
+            quantity: 0,
+          },
+          {
+            id: "14.7",
+            name: "Dụng cụ cầm tay",
+            slug: "dung-cu-cam-tay",
+            quantity: 0,
+          },
+          {
+            id: "14.8",
+            name: "Ngoài trời & Sân vườn",
+            slug: "ngoai-troi-san-vuon",
+            quantity: 1,
+          },
+        ],
+      },
+      {
+        id: "filter-price",
+        name: "Lọc theo giá",
+      },
+      {
+        id: "filter-material",
+        name: "Chất liệu",
+        metadata: [
+          { name: "Nhựa", value: "plastic" },
+          { name: "Vải", value: "fabric" },
+          { name: "Thép", value: "steel" },
+          { name: "Gỗ", value: "wood" },
+          { name: "Sắt", value: "iron" },
+        ],
+      },
+    ],
+  },
+  {
+    categoryId: "15",
+    filterList: [
+      {
+        id: "category-menu",
+        name: "Danh mục sản phẩm",
+        metadata: [
+          {
+            id: "15.1",
+            name: "Đồ dùng cho bé",
+            slug: "do-dung-cho-be",
+            quantity: 0,
+          },
+          {
+            id: "15.2",
+            name: "Ghế, Nui, Cũi, Xe đẩy & Địu",
+            slug: "ghe-nui-cui-xe-day-diu",
+            quantity: 1,
+          },
+          {
+            id: "15.3",
+            name: "Quần áo & Phụ kiện sơ sinh",
+            slug: "quan-ao-phu-kien-so-sinh",
+            quantity: 1,
+          },
+          {
+            id: "15.4",
+            name: "Sữa & Đồ ăn",
+            slug: "sua-do-an",
+            quantity: 1,
+          },
+          {
+            id: "15.5",
+            name: "Tã & Bỉm",
+            slug: "ta-bim",
+            quantity: 1,
+          },
+        ],
+      },
+      {
+        id: "filter-price",
+        name: "Lọc theo giá",
+      },
+      {
+        id: "filter-age",
+        name: "Độ tuổi phù hợp",
+        metadata: [
+          { name: "1 tháng trở lên", value: "1 month" },
+          { name: "6 tháng trở lên", value: "6 month" },
+          { name: "1 tuổi trở lên", value: "1 years" },
+        ],
+      },
+    ],
+  },
+  {
+    categoryId: "16",
+    filterList: [
+      {
+        id: "category-menu",
+        name: "Danh mục sản phẩm",
+        metadata: [
+          {
+            id: "16.1",
+            name: "Áo khoác và Áo vest",
+            slug: "ao-khoac-ao-vest",
+            quantity: 2,
+          },
+          {
+            id: "16.2",
+            name: "Áo nỉ / Áo len",
+            slug: "ao-ni-ao-len",
+            quantity: 1,
+          },
+          {
+            id: "16.3",
+            name: "Áo sơ mi",
+            slug: "ao-so-mi",
+            quantity: 2,
+          },
+          {
+            id: "16.4",
+            name: "Áo thun",
+            slug: "ao-thun",
+            quantity: 2,
+          },
+          {
+            id: "16.5",
+            name: "Đồ bộ / Đồ mặc trong nhà",
+            slug: "do-bo-do-mac-trong-nha",
+            quantity: 0,
+          },
+          {
+            id: "16.6",
+            name: "Quần",
+            slug: "quan",
+            quantity: 2,
+          },
+          {
+            id: "16.7",
+            name: "Phụ kiện nam",
+            slug: "phu-kien-nam",
+            quantity: 0,
+          },
+        ],
+      },
+      {
+        id: "filter-price",
+        name: "Lọc theo giá",
+      },
+      {
+        id: "filter-color",
+        name: "Màu Sắc",
+        metadata: [
+          { name: "Đỏ", value: "red" },
+          { name: "Trắng", value: "white" },
+          { name: "Nâu", value: "brown" },
+          { name: "Đen", value: "black" },
+          { name: "Vàng", value: "yellow" },
+          { name: "Xanh dương", value: "blue" },
+          { name: "Xanh rêu", value: "green" },
+          { name: "Hồng", value: "pink" },
+          { name: "Xám", value: "gray" },
+          { name: "Tím", value: "purple" },
+          { name: "Cam", value: "orange" },
+        ],
+      },
+      {
+        id: "filter-size",
+        name: "Kích cỡ",
+        metadata: [
+          { name: "S", value: "S" },
+          { name: "M", value: "M" },
+          { name: "L", value: "L" },
+          { name: "XS", value: "XS" },
+          { name: "XL", value: "XL" },
+          { name: "3XL", value: "3XL" },
+          { name: "4XL", value: "4XL" },
+          { name: "5XL", value: "5XL" },
+          { name: "XXL", value: "XXL" },
+        ],
+      },
+    ],
+  },
+  {
+    categoryId: "17",
+    quantity: 0,
+    filterList: [
+      {
+        id: "category-menu",
+        name: "Danh mục sản phẩm",
+        metadata: [
+          {
+            id: "17.1",
+            name: "Áo",
+            slug: "ao",
+            quantity: 1,
+          },
+          {
+            id: "17.2",
+            name: "Váy",
+            slug: "vay",
+            quantity: 2,
+          },
+          {
+            id: "17.3",
+            name: "Đầm",
+            slug: "dam",
+            quantity: 2,
+          },
+          {
+            id: "17.4",
+            name: "Đồ lót, Đồ ngủ & Đồ mặc trong nhà",
+            slug: "do-lot-do-ngu-do-mac-trong-nha",
+            quantity: 0,
+          },
+          {
+            id: "17.5",
+            name: "Quần nữ",
+            slug: "quan-nu",
+            quantity: 1,
+          },
+          {
+            id: "17.6",
+            name: "Đồ bơi",
+            slug: "do-boi",
+            quantity: 0,
+          },
+        ],
+      },
+      {
+        id: "filter-price",
+        name: "Lọc theo giá",
+      },
+      {
+        id: "filter-color",
+        name: "Màu Sắc",
+        metadata: [
+          { name: "Đỏ", value: "red" },
+          { name: "Trắng", value: "white" },
+          { name: "Nâu", value: "brown" },
+          { name: "Đen", value: "black" },
+          { name: "Xanh rêu", value: "green" },
+          { name: "Hồng", value: "pink" },
+          { name: "Xám", value: "gray" },
+        ],
+      },
+      {
+        id: "filter-size",
+        name: "Kích cỡ",
+        metadata: [
+          { name: "S", value: "S" },
+          { name: "M", value: "M" },
+          { name: "L", value: "L" },
+          { name: "XS", value: "XS" },
+          { name: "XL", value: "XL" },
+          { name: "XXL", value: "XXL" },
+        ],
+      },
+    ],
+  },
+  {
+    categoryId: "18",
+    filterList: [
+      {
+        id: "category-menu",
+        name: "Danh mục sản phẩm",
+        metadata: [
+          {
+            id: "18.1",
+            name: "Balo thời trang",
+            slug: "balo-thoi-trang",
+            quantity: 1,
+          },
+          {
+            id: "18.2",
+            name: "Cặp văn phòng",
+            slug: "cap-van-phong",
+            quantity: 0,
+          },
+          {
+            id: "18.3",
+            name: "Túi đeo chéo",
+            slug: "tui-deo-cheo",
+            quantity: 1,
+          },
+          {
+            id: "18.4",
+            name: "Túi đựng tiện ích",
+            slug: "tui-dung-tien-ich",
+            quantity: 0,
+          },
+          {
+            id: "18.5",
+            name: "Ví nam",
+            slug: "vi-nam",
+            quantity: 1,
+          },
+          {
+            id: "18.6",
+            name: "Ví nữ",
+            slug: "vi-nu",
+            quantity: 2,
+          },
+        ],
+      },
+      {
+        id: "filter-price",
+        name: "Lọc theo giá",
+      },
+    ],
+  },
+  {
+    categoryId: "19",
+    filterList: [
+      {
+        id: "category-menu",
+        name: "Danh mục sản phẩm",
+        metadata: [
+          {
+            id: "19.1",
+            name: "Du lịch - Khách sạn",
+            slug: "du-lich-khach-san",
+            quantity: 0,
+          },
+          {
+            id: "19.2",
+            name: "Khóa học",
+            slug: "khoa-hoc",
+            quantity: 1,
+          },
+          {
+            id: "19.3",
+            name: "Nhà hàng - Ăn uống",
+            slug: "nha-hang-an-uong",
+            quantity: 0,
+          },
+          {
+            id: "19.4",
+            name: "Sự kiện - Giải trí",
+            slug: "su-kien-giai-tri",
+            quantity: 0,
+          },
+        ],
+      },
+      {
+        id: "filter-price",
+        name: "Lọc theo giá",
+      },
+    ],
+  },
+];
