@@ -45,6 +45,7 @@ exports.addToCart = async (req, res) => {
       );
       currentCart.quantity = currentCart.quantity += quantity;
       currentCart.newPrice = currentCart.newPrice * currentCart.quantity;
+      currentCart.status = status;
       await fileManager.saveFile(data, FILE_USERS);
     } else {
       const newPrice = Math.round(price - (price * discount) / 100);
